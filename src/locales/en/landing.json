@@ -1,0 +1,31 @@
+{
+  "en": {
+    "landing": {
+      "hero_title": "Welcome to Coddy",
+      "hero_subtitle": "The Modern School Management Platform",
+      "cta_primary": "Get Started",
+      "cta_secondary": "Learn More",
+      "features_title": "Why Choose Coddy?",
+      "feature_1_title": "Student Management",
+      "feature_1_desc": "Comprehensive student records and information management",
+      "feature_2_title": "Payment Tracking",
+      "feature_2_desc": "Real-time payment status and history tracking",
+      "feature_3_title": "Attendance System",
+      "feature_3_desc": "Automated attendance tracking and reporting",
+      "feature_4_title": "Multilingual",
+      "feature_4_desc": "Support for multiple languages and locales",
+      "stats_title": "By the Numbers",
+      "stat_students": "Active Students",
+      "stat_courses": "Available Courses",
+      "stat_schools": "Schools Using Coddy",
+      "cta_title": "Ready to Transform Your School?",
+      "cta_description": "Join thousands of schools using Coddy to streamline their operations",
+      "get_started": "Start Your Free Trial",
+      "courses_title": "Explore Our Courses",
+      "courses_subtitle": "Discover a wide range of courses for all levels",
+      "loading": "Loading courses...",
+      "no_courses": "No courses available",
+      "view_course": "View Course"
+    }
+  }
+}

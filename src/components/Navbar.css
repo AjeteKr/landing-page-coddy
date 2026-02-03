@@ -1,0 +1,168 @@
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #667eea;
+  cursor: pointer;
+  padding: 0;
+}
+
+.brand-button:hover {
+  color: #5568d3;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+  margin-left: 40px;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+  padding: 0;
+}
+
+.nav-link:hover {
+  color: #667eea;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.language-switcher {
+  display: flex;
+  gap: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.language-switcher button {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  transition: all 0.3s;
+}
+
+.language-switcher button.active {
+  background-color: #667eea;
+  color: white;
+  border-radius: 3px;
+}
+
+.user-info {
+  color: #333;
+  font-weight: 600;
+}
+
+.btn-login,
+.btn-register,
+.btn-logout {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+  font-size: 14px;
+}
+
+.btn-login {
+  background-color: transparent;
+  color: #667eea;
+  border: 1px solid #667eea;
+}
+
+.btn-login:hover {
+  background-color: #667eea;
+  color: white;
+}
+
+.btn-register {
+  background-color: #667eea;
+  color: white;
+}
+
+.btn-register:hover {
+  background-color: #5568d3;
+}
+
+.btn-logout {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-logout:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .navbar-right {
+    gap: 10px;
+  }
+
+  .btn-login,
+  .btn-register {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    flex-wrap: wrap;
+  }
+
+  .navbar-right {
+    gap: 8px;
+  }
+
+  .user-info {
+    display: none;
+  }
+
+  .btn-register {
+    display: none;
+  }
+}

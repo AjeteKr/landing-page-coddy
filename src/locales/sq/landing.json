@@ -1,0 +1,31 @@
+{
+  "sq": {
+    "landing": {
+      "hero_title": "Mirësevini në Coddy",
+      "hero_subtitle": "Platforma Moderne për Menaxhimin e Shkolës",
+      "cta_primary": "Fillo",
+      "cta_secondary": "Mëso Më Shumë",
+      "features_title": "Pse të zgjidhni Coddy?",
+      "feature_1_title": "Menaxhimi i Studentëve",
+      "feature_1_desc": "Regjistri gjithëpërfshirës i studentëve dhe menaxhimi i informacionit",
+      "feature_2_title": "Gjurmohet Pagesa",
+      "feature_2_desc": "Gjurmimi real-time i statusit dhe historisë së pagesës",
+      "feature_3_title": "Sistemi i Frekuentimit",
+      "feature_3_desc": "Gjurmimi automatik i frekuentimit dhe raportimi",
+      "feature_4_title": "Shumëgjuhësh",
+      "feature_4_desc": "Mbështetje për më shumë gjuhë dhe locale",
+      "stats_title": "Sipas Numrave",
+      "stat_students": "Studentë Aktivë",
+      "stat_courses": "Kurse të Disponueshëm",
+      "stat_schools": "Shkollat Duke Përdorur Coddy",
+      "cta_title": "Gati të Transformoni Shkolën Tuaj?",
+      "cta_description": "Bashkohuni me mijëra shkolla duke përdorur Coddy për të thjeshëzuar operacionet e tyre",
+      "get_started": "Filloni Provën Tuaj Falas",
+      "courses_title": "Eksploroni Kurset Tona",
+      "courses_subtitle": "Zbuloni një gamë të gjerë kursesh për të gjitha nivelet",
+      "loading": "Ngarkimi i kurseve...",
+      "no_courses": "Nuk ka kurse të disponueshëm",
+      "view_course": "Shiko Kursin"
+    }
+  }
+}

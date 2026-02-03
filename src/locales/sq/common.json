@@ -1,0 +1,19 @@
+{
+  "sq": {
+    "common": {
+      "home": "Shtëpi",
+      "courses": "Kurset",
+      "login": "Hyrja",
+      "register": "Regjistrohu",
+      "logout": "Dilni",
+      "loading": "Duke u ngarkuar...",
+      "error": "Gabim",
+      "success": "Sukses",
+      "cancel": "Anulo",
+      "submit": "Paraqit",
+      "delete": "Fshi",
+      "edit": "Redakto",
+      "save": "Ruaj"
+    }
+  }
+}
