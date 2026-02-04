@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
 import { BookOpen, Eye, EyeOff } from 'lucide-react';
 import './Login.css';
 
 function Login({ onLoginSuccess }) {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: '',

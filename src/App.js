@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Routes, Route, Navigate, useNavigate, useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './App.css';
 import './i18n';
@@ -16,7 +16,6 @@ function App() {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
-  const location = useLocation();
 
   useEffect(() => {
     // Check for existing session on mount
@@ -61,10 +60,6 @@ function App() {
     navigate('/');
   };
 
-  const handleLogout = () => {
-    setUser(null);
-    navigate('/');
-  };
 
   if (loading) {
     return (
