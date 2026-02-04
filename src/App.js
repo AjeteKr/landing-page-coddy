@@ -73,21 +73,23 @@ function App() {
   return (
     <div className="app">
       <main className="main-content">
-        <Routes>
-          <Route path="/" element={<PublicLanding />} />
-          <Route path="/courses" element={<PublicCourses />} />
-          <Route path="/course/:courseId" element={<CourseDetail />} />
-          <Route path="/student-projects" element={<StudentProjects />} />
-          <Route
-            path="/login"
-            element={user ? <Navigate to="/" /> : <Login onLoginSuccess={handleLoginSuccess} />}
-          />
-          <Route
-            path="/register"
-            element={user ? <Navigate to="/" /> : <Register onRegisterSuccess={handleLoginSuccess} />}
-          />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
+        <div className="app-shell">
+          <Routes>
+            <Route path="/" element={<PublicLanding />} />
+            <Route path="/courses" element={<PublicCourses />} />
+            <Route path="/course/:courseId" element={<CourseDetail />} />
+            <Route path="/student-projects" element={<StudentProjects />} />
+            <Route
+              path="/login"
+              element={user ? <Navigate to="/" /> : <Login onLoginSuccess={handleLoginSuccess} />}
+            />
+            <Route
+              path="/register"
+              element={user ? <Navigate to="/" /> : <Register onRegisterSuccess={handleLoginSuccess} />}
+            />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </div>
       </main>
     </div>
   );

@@ -10,6 +10,8 @@ const Navbar = ({ user, onLogout }) => {
   const location = useLocation();
   const isAuthPage = ['/login', '/register'].includes(location.pathname);
 
+  const isActive = (path) => location.pathname === path;
+
   const handleLogout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('user');
@@ -30,10 +32,10 @@ const Navbar = ({ user, onLogout }) => {
         </div>
 
         <div className="navbar-menu">
-          <button onClick={() => navigate('/')} className="nav-link">
+          <button onClick={() => navigate('/')} className={`nav-link ${isActive('/') ? 'active' : ''}`}>
             {t('home')}
           </button>
-          <button onClick={() => navigate('/courses')} className="nav-link">
+          <button onClick={() => navigate('/courses')} className={`nav-link ${isActive('/courses') ? 'active' : ''}`}>
             {t('courses')}
           </button>
         </div>
