@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { UserPlus, Lock } from 'lucide-react';
+import { UserPlus } from 'lucide-react';
 import './Register.css';
 
 function Register({ onRegisterSuccess }) {
